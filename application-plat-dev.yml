@@ -3,3 +3,11 @@ server:
 spring:
   application:
     name: fenggou-plat
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql:///test?useSSL=false
+    username: root
+    password: root
+mybatis-plus:
+  mapper-locations: classpath:cn/itsource/fenggou/mapper/*Mapper.xml
+  type-aliases-package: cn.itsource.fenggou.domain,cn.itsource.fenggou.query
