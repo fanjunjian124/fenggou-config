@@ -1,0 +1,13 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: fenggou-product
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql:///fenggou-product?useSSL=false
+    username: root
+    password: root
+mybatis-plus:
+  mapper-locations: classpath:cn/itsource/fenggou/mapper/*Mapper.xml
+  type-aliases-package: cn.itsource.fenggou.domain,cn.itsource.fenggou.query
