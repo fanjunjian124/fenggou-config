@@ -10,3 +10,7 @@ zuul:
     plat:
       path: /plat/**
       service-id: fenggou-plat
+    product:
+      path: /product/**
+      service-id: fenggou-product
+    
