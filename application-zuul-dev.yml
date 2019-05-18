@@ -13,4 +13,7 @@ zuul:
     product:
       path: /product/**
       service-id: fenggou-product
-    
+aigou-product: 
+  ribbon:
+    ConnectTimeout: 1000
+    ReadTimeout: 5000
