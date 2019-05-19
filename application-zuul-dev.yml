@@ -15,5 +15,5 @@ zuul:
       service-id: fenggou-product
 fenggou-product: 
   ribbon:
-    ConnectTimeout: 1000
-    ReadTimeout: 5000
+    ConnectTimeout: 10000
+    ReadTimeout: 10000
