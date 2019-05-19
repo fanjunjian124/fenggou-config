@@ -13,6 +13,10 @@ zuul:
     product:
       path: /product/**
       service-id: fenggou-product
+    common:
+      path: /common/**
+      service-id: fenggou-common
+
 fenggou-product: 
   ribbon:
     ConnectTimeout: 10000
